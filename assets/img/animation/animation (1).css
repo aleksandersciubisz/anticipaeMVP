@@ -1,0 +1,1143 @@
+/*
+The CSS export should solely be used as a reference.
+For a more detailed animation export the JSON file should be used.
+*/
+#Ellipse_1 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_1__x__1 3000ms 0ms linear forwards, Ellipse_1__x__2 3000ms 3000ms linear forwards, Ellipse_1__x__3 3000ms 6000ms linear forwards, Ellipse_1__x__4 3000ms 9000ms linear forwards, Ellipse_1__x__5 3000ms 12000ms linear forwards, Ellipse_1__x__6 3000ms 15000ms linear forwards, Ellipse_1__y__1 3000ms 0ms linear forwards, Ellipse_1__y__2 3000ms 3000ms linear forwards, Ellipse_1__y__3 3000ms 6000ms linear forwards, Ellipse_1__y__4 3000ms 9000ms linear forwards, Ellipse_1__y__5 3000ms 12000ms linear forwards, Ellipse_1__y__6 3000ms 15000ms linear forwards;
+}
+
+@keyframes Ellipse_1__x__1 {
+    from {
+        left: 79px;
+    }
+
+    to {
+        left: 311px;
+    }
+}
+@keyframes Ellipse_1__x__2 {
+    from {
+        left: 311px;
+    }
+
+    to {
+        left: 388px;
+    }
+}
+@keyframes Ellipse_1__x__3 {
+    from {
+        left: 388px;
+    }
+
+    to {
+        left: 338px;
+    }
+}
+@keyframes Ellipse_1__x__4 {
+    from {
+        left: 338px;
+    }
+
+    to {
+        left: 379px;
+    }
+}
+@keyframes Ellipse_1__x__5 {
+    from {
+        left: 379px;
+    }
+
+    to {
+        left: 379px;
+    }
+}
+@keyframes Ellipse_1__x__6 {
+    from {
+        left: 379px;
+    }
+
+    to {
+        left: 79px;
+    }
+}
+@keyframes Ellipse_1__y__1 {
+    from {
+        top: 93px;
+    }
+
+    to {
+        top: 298px;
+    }
+}
+@keyframes Ellipse_1__y__2 {
+    from {
+        top: 298px;
+    }
+
+    to {
+        top: 312px;
+    }
+}
+@keyframes Ellipse_1__y__3 {
+    from {
+        top: 312px;
+    }
+
+    to {
+        top: 153px;
+    }
+}
+@keyframes Ellipse_1__y__4 {
+    from {
+        top: 153px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+@keyframes Ellipse_1__y__5 {
+    from {
+        top: 106px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+@keyframes Ellipse_1__y__6 {
+    from {
+        top: 106px;
+    }
+
+    to {
+        top: 93px;
+    }
+}
+
+#Ellipse_2 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_2__x__1 3000ms 0ms linear forwards, Ellipse_2__x__2 3000ms 3000ms linear forwards, Ellipse_2__x__3 3000ms 6000ms linear forwards, Ellipse_2__x__4 3000ms 9000ms linear forwards, Ellipse_2__x__5 3000ms 12000ms linear forwards, Ellipse_2__x__6 3000ms 15000ms linear forwards, Ellipse_2__y__1 3000ms 0ms linear forwards, Ellipse_2__y__2 3000ms 3000ms linear forwards, Ellipse_2__y__3 3000ms 6000ms linear forwards, Ellipse_2__y__4 3000ms 9000ms linear forwards, Ellipse_2__y__5 3000ms 12000ms linear forwards, Ellipse_2__y__6 3000ms 15000ms linear forwards;
+}
+
+@keyframes Ellipse_2__x__1 {
+    from {
+        left: 583px;
+    }
+
+    to {
+        left: 577px;
+    }
+}
+@keyframes Ellipse_2__x__2 {
+    from {
+        left: 577px;
+    }
+
+    to {
+        left: 340px;
+    }
+}
+@keyframes Ellipse_2__x__3 {
+    from {
+        left: 340px;
+    }
+
+    to {
+        left: 338px;
+    }
+}
+@keyframes Ellipse_2__x__4 {
+    from {
+        left: 338px;
+    }
+
+    to {
+        left: 379px;
+    }
+}
+@keyframes Ellipse_2__x__5 {
+    from {
+        left: 379px;
+    }
+
+    to {
+        left: 379px;
+    }
+}
+@keyframes Ellipse_2__x__6 {
+    from {
+        left: 379px;
+    }
+
+    to {
+        left: 583px;
+    }
+}
+@keyframes Ellipse_2__y__1 {
+    from {
+        top: 119px;
+    }
+
+    to {
+        top: 377px;
+    }
+}
+@keyframes Ellipse_2__y__2 {
+    from {
+        top: 377px;
+    }
+
+    to {
+        top: 76px;
+    }
+}
+@keyframes Ellipse_2__y__3 {
+    from {
+        top: 76px;
+    }
+
+    to {
+        top: 153px;
+    }
+}
+@keyframes Ellipse_2__y__4 {
+    from {
+        top: 153px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+@keyframes Ellipse_2__y__5 {
+    from {
+        top: 106px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+@keyframes Ellipse_2__y__6 {
+    from {
+        top: 106px;
+    }
+
+    to {
+        top: 119px;
+    }
+}
+
+#Ellipse_3 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_3__x__1 3000ms 0ms linear forwards, Ellipse_3__x__2 3000ms 3000ms linear forwards, Ellipse_3__x__3 3000ms 6000ms linear forwards, Ellipse_3__x__4 3000ms 9000ms linear forwards, Ellipse_3__x__5 3000ms 12000ms linear forwards, Ellipse_3__x__6 3000ms 15000ms linear forwards, Ellipse_3__y__1 3000ms 0ms linear forwards, Ellipse_3__y__2 3000ms 3000ms linear forwards, Ellipse_3__y__3 3000ms 6000ms linear forwards, Ellipse_3__y__4 3000ms 9000ms linear forwards, Ellipse_3__y__5 3000ms 12000ms linear forwards, Ellipse_3__y__6 3000ms 15000ms linear forwards;
+}
+
+@keyframes Ellipse_3__x__1 {
+    from {
+        left: 135px;
+    }
+
+    to {
+        left: 279px;
+    }
+}
+@keyframes Ellipse_3__x__2 {
+    from {
+        left: 279px;
+    }
+
+    to {
+        left: 182px;
+    }
+}
+@keyframes Ellipse_3__x__3 {
+    from {
+        left: 182px;
+    }
+
+    to {
+        left: 338px;
+    }
+}
+@keyframes Ellipse_3__x__4 {
+    from {
+        left: 338px;
+    }
+
+    to {
+        left: 379px;
+    }
+}
+@keyframes Ellipse_3__x__5 {
+    from {
+        left: 379px;
+    }
+
+    to {
+        left: 379px;
+    }
+}
+@keyframes Ellipse_3__x__6 {
+    from {
+        left: 379px;
+    }
+
+    to {
+        left: 135px;
+    }
+}
+@keyframes Ellipse_3__y__1 {
+    from {
+        top: 558px;
+    }
+
+    to {
+        top: 656px;
+    }
+}
+@keyframes Ellipse_3__y__2 {
+    from {
+        top: 656px;
+    }
+
+    to {
+        top: 332px;
+    }
+}
+@keyframes Ellipse_3__y__3 {
+    from {
+        top: 332px;
+    }
+
+    to {
+        top: 153px;
+    }
+}
+@keyframes Ellipse_3__y__4 {
+    from {
+        top: 153px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+@keyframes Ellipse_3__y__5 {
+    from {
+        top: 106px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+@keyframes Ellipse_3__y__6 {
+    from {
+        top: 106px;
+    }
+
+    to {
+        top: 558px;
+    }
+}
+
+#Ellipse_4 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_4__x__1 3000ms 0ms linear forwards, Ellipse_4__x__2 2983ms 3000ms linear forwards, Ellipse_4__x__3 3017ms 5983ms linear forwards, Ellipse_4__x__4 3000ms 9000ms linear forwards, Ellipse_4__x__5 3000ms 12000ms linear forwards, Ellipse_4__x__6 3000ms 15000ms linear forwards, Ellipse_4__y__1 3000ms 0ms linear forwards, Ellipse_4__y__2 2983ms 3000ms linear forwards, Ellipse_4__y__3 3017ms 5983ms linear forwards, Ellipse_4__y__4 3000ms 9000ms linear forwards, Ellipse_4__y__5 3000ms 12000ms linear forwards, Ellipse_4__y__6 3000ms 15000ms linear forwards;
+}
+
+@keyframes Ellipse_4__x__1 {
+    from {
+        left: 511px;
+    }
+
+    to {
+        left: 350px;
+    }
+}
+@keyframes Ellipse_4__x__2 {
+    from {
+        left: 350px;
+    }
+
+    to {
+        left: 388px;
+    }
+}
+@keyframes Ellipse_4__x__3 {
+    from {
+        left: 388px;
+    }
+
+    to {
+        left: 338px;
+    }
+}
+@keyframes Ellipse_4__x__4 {
+    from {
+        left: 338px;
+    }
+
+    to {
+        left: 379px;
+    }
+}
+@keyframes Ellipse_4__x__5 {
+    from {
+        left: 379px;
+    }
+
+    to {
+        left: 379px;
+    }
+}
+@keyframes Ellipse_4__x__6 {
+    from {
+        left: 379px;
+    }
+
+    to {
+        left: 511px;
+    }
+}
+@keyframes Ellipse_4__y__1 {
+    from {
+        top: 460px;
+    }
+
+    to {
+        top: 206px;
+    }
+}
+@keyframes Ellipse_4__y__2 {
+    from {
+        top: 206px;
+    }
+
+    to {
+        top: 311px;
+    }
+}
+@keyframes Ellipse_4__y__3 {
+    from {
+        top: 311px;
+    }
+
+    to {
+        top: 153px;
+    }
+}
+@keyframes Ellipse_4__y__4 {
+    from {
+        top: 153px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+@keyframes Ellipse_4__y__5 {
+    from {
+        top: 106px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+@keyframes Ellipse_4__y__6 {
+    from {
+        top: 106px;
+    }
+
+    to {
+        top: 460px;
+    }
+}
+
+#Ellipse_5 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_5__x__1 3000ms 0ms linear forwards, Ellipse_5__x__2 2983ms 3000ms linear forwards, Ellipse_5__x__3 3017ms 5983ms linear forwards, Ellipse_5__x__4 3000ms 9000ms linear forwards, Ellipse_5__x__5 3000ms 12000ms linear forwards, Ellipse_5__x__6 3000ms 15000ms linear forwards, Ellipse_5__y__1 3000ms 0ms linear forwards, Ellipse_5__y__2 2983ms 3000ms linear forwards, Ellipse_5__y__3 3017ms 5983ms linear forwards, Ellipse_5__y__4 3000ms 9000ms linear forwards, Ellipse_5__y__5 3000ms 12000ms linear forwards, Ellipse_5__y__6 3000ms 15000ms linear forwards;
+}
+
+@keyframes Ellipse_5__x__1 {
+    from {
+        left: 402px;
+    }
+
+    to {
+        left: 510px;
+    }
+}
+@keyframes Ellipse_5__x__2 {
+    from {
+        left: 510px;
+    }
+
+    to {
+        left: 430px;
+    }
+}
+@keyframes Ellipse_5__x__3 {
+    from {
+        left: 430px;
+    }
+
+    to {
+        left: 546px;
+    }
+}
+@keyframes Ellipse_5__x__4 {
+    from {
+        left: 546px;
+    }
+
+    to {
+        left: 379px;
+    }
+}
+@keyframes Ellipse_5__x__5 {
+    from {
+        left: 379px;
+    }
+
+    to {
+        left: 379px;
+    }
+}
+@keyframes Ellipse_5__x__6 {
+    from {
+        left: 379px;
+    }
+
+    to {
+        left: 402px;
+    }
+}
+@keyframes Ellipse_5__y__1 {
+    from {
+        top: 278px;
+    }
+
+    to {
+        top: 432px;
+    }
+}
+@keyframes Ellipse_5__y__2 {
+    from {
+        top: 432px;
+    }
+
+    to {
+        top: 123px;
+    }
+}
+@keyframes Ellipse_5__y__3 {
+    from {
+        top: 123px;
+    }
+
+    to {
+        top: 186px;
+    }
+}
+@keyframes Ellipse_5__y__4 {
+    from {
+        top: 186px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+@keyframes Ellipse_5__y__5 {
+    from {
+        top: 106px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+@keyframes Ellipse_5__y__6 {
+    from {
+        top: 106px;
+    }
+
+    to {
+        top: 278px;
+    }
+}
+
+#Ellipse_6 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_6__x__1 3000ms 0ms linear forwards, Ellipse_6__x__2 2983ms 3000ms linear forwards, Ellipse_6__x__3 3017ms 5983ms linear forwards, Ellipse_6__x__4 3000ms 9000ms linear forwards, Ellipse_6__x__5 3000ms 12000ms linear forwards, Ellipse_6__x__6 3000ms 15000ms linear forwards, Ellipse_6__y__1 3000ms 0ms linear forwards, Ellipse_6__y__2 2983ms 3000ms linear forwards, Ellipse_6__y__3 3017ms 5983ms linear forwards, Ellipse_6__y__4 3000ms 9000ms linear forwards, Ellipse_6__y__5 3000ms 12000ms linear forwards, Ellipse_6__y__6 3000ms 15000ms linear forwards;
+}
+
+@keyframes Ellipse_6__x__1 {
+    from {
+        left: 211px;
+    }
+
+    to {
+        left: 546px;
+    }
+}
+@keyframes Ellipse_6__x__2 {
+    from {
+        left: 546px;
+    }
+
+    to {
+        left: 358px;
+    }
+}
+@keyframes Ellipse_6__x__3 {
+    from {
+        left: 358px;
+    }
+
+    to {
+        left: 424px;
+    }
+}
+@keyframes Ellipse_6__x__4 {
+    from {
+        left: 424px;
+    }
+
+    to {
+        left: 379px;
+    }
+}
+@keyframes Ellipse_6__x__5 {
+    from {
+        left: 379px;
+    }
+
+    to {
+        left: 379px;
+    }
+}
+@keyframes Ellipse_6__x__6 {
+    from {
+        left: 379px;
+    }
+
+    to {
+        left: 211px;
+    }
+}
+@keyframes Ellipse_6__y__1 {
+    from {
+        top: 412px;
+    }
+
+    to {
+        top: 238px;
+    }
+}
+@keyframes Ellipse_6__y__2 {
+    from {
+        top: 238px;
+    }
+
+    to {
+        top: 467px;
+    }
+}
+@keyframes Ellipse_6__y__3 {
+    from {
+        top: 467px;
+    }
+
+    to {
+        top: 268px;
+    }
+}
+@keyframes Ellipse_6__y__4 {
+    from {
+        top: 268px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+@keyframes Ellipse_6__y__5 {
+    from {
+        top: 106px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+@keyframes Ellipse_6__y__6 {
+    from {
+        top: 106px;
+    }
+
+    to {
+        top: 412px;
+    }
+}
+
+#Ellipse_7 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_7__x__1 3000ms 0ms linear forwards, Ellipse_7__x__2 2983ms 3000ms linear forwards, Ellipse_7__x__3 3017ms 5983ms linear forwards, Ellipse_7__x__4 3000ms 9000ms linear forwards, Ellipse_7__x__5 3000ms 12000ms linear forwards, Ellipse_7__x__6 3000ms 15000ms linear forwards, Ellipse_7__y__1 3000ms 0ms linear forwards, Ellipse_7__y__2 2983ms 3000ms linear forwards, Ellipse_7__y__3 3017ms 5983ms linear forwards, Ellipse_7__y__4 3000ms 9000ms linear forwards, Ellipse_7__y__5 3000ms 12000ms linear forwards, Ellipse_7__y__6 3000ms 15000ms linear forwards;
+}
+
+@keyframes Ellipse_7__x__1 {
+    from {
+        left: 311px;
+    }
+
+    to {
+        left: 536px;
+    }
+}
+@keyframes Ellipse_7__x__2 {
+    from {
+        left: 536px;
+    }
+
+    to {
+        left: 203px;
+    }
+}
+@keyframes Ellipse_7__x__3 {
+    from {
+        left: 203px;
+    }
+
+    to {
+        left: 308px;
+    }
+}
+@keyframes Ellipse_7__x__4 {
+    from {
+        left: 308px;
+    }
+
+    to {
+        left: 379px;
+    }
+}
+@keyframes Ellipse_7__x__5 {
+    from {
+        left: 379px;
+    }
+
+    to {
+        left: 379px;
+    }
+}
+@keyframes Ellipse_7__x__6 {
+    from {
+        left: 379px;
+    }
+
+    to {
+        left: 311px;
+    }
+}
+@keyframes Ellipse_7__y__1 {
+    from {
+        top: 73px;
+    }
+
+    to {
+        top: 111px;
+    }
+}
+@keyframes Ellipse_7__y__2 {
+    from {
+        top: 111px;
+    }
+
+    to {
+        top: 206px;
+    }
+}
+@keyframes Ellipse_7__y__3 {
+    from {
+        top: 206px;
+    }
+
+    to {
+        top: 52px;
+    }
+}
+@keyframes Ellipse_7__y__4 {
+    from {
+        top: 52px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+@keyframes Ellipse_7__y__5 {
+    from {
+        top: 106px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+@keyframes Ellipse_7__y__6 {
+    from {
+        top: 106px;
+    }
+
+    to {
+        top: 73px;
+    }
+}
+
+#Ellipse_8 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_8__x__1 3000ms 0ms linear forwards, Ellipse_8__x__2 2983ms 3000ms linear forwards, Ellipse_8__x__3 3017ms 5983ms linear forwards, Ellipse_8__x__4 3000ms 9000ms linear forwards, Ellipse_8__x__5 3000ms 12000ms linear forwards, Ellipse_8__x__6 3000ms 15000ms linear forwards, Ellipse_8__y__1 3000ms 0ms linear forwards, Ellipse_8__y__2 2983ms 3000ms linear forwards, Ellipse_8__y__3 3017ms 5983ms linear forwards, Ellipse_8__y__4 3000ms 9000ms linear forwards, Ellipse_8__y__5 3000ms 12000ms linear forwards, Ellipse_8__y__6 3000ms 15000ms linear forwards;
+}
+
+@keyframes Ellipse_8__x__1 {
+    from {
+        left: 135px;
+    }
+
+    to {
+        left: 252px;
+    }
+}
+@keyframes Ellipse_8__x__2 {
+    from {
+        left: 252px;
+    }
+
+    to {
+        left: 388px;
+    }
+}
+@keyframes Ellipse_8__x__3 {
+    from {
+        left: 388px;
+    }
+
+    to {
+        left: 338px;
+    }
+}
+@keyframes Ellipse_8__x__4 {
+    from {
+        left: 338px;
+    }
+
+    to {
+        left: 379px;
+    }
+}
+@keyframes Ellipse_8__x__5 {
+    from {
+        left: 379px;
+    }
+
+    to {
+        left: 379px;
+    }
+}
+@keyframes Ellipse_8__x__6 {
+    from {
+        left: 379px;
+    }
+
+    to {
+        left: 135px;
+    }
+}
+@keyframes Ellipse_8__y__1 {
+    from {
+        top: 218px;
+    }
+
+    to {
+        top: 472px;
+    }
+}
+@keyframes Ellipse_8__y__2 {
+    from {
+        top: 472px;
+    }
+
+    to {
+        top: 312px;
+    }
+}
+@keyframes Ellipse_8__y__3 {
+    from {
+        top: 312px;
+    }
+
+    to {
+        top: 153px;
+    }
+}
+@keyframes Ellipse_8__y__4 {
+    from {
+        top: 153px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+@keyframes Ellipse_8__y__5 {
+    from {
+        top: 106px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+@keyframes Ellipse_8__y__6 {
+    from {
+        top: 106px;
+    }
+
+    to {
+        top: 218px;
+    }
+}
+
+#Ellipse_9 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_9__x__1 3000ms 0ms linear forwards, Ellipse_9__x__2 3000ms 3000ms linear forwards, Ellipse_9__x__3 3000ms 6000ms linear forwards, Ellipse_9__x__4 3000ms 9000ms linear forwards, Ellipse_9__x__5 3000ms 12000ms linear forwards, Ellipse_9__x__6 3000ms 15000ms linear forwards, Ellipse_9__y__1 3000ms 0ms linear forwards, Ellipse_9__y__2 3000ms 3000ms linear forwards, Ellipse_9__y__3 3000ms 6000ms linear forwards, Ellipse_9__y__4 3000ms 9000ms linear forwards, Ellipse_9__y__5 3000ms 12000ms linear forwards, Ellipse_9__y__6 3000ms 15000ms linear forwards;
+}
+
+@keyframes Ellipse_9__x__1 {
+    from {
+        left: 437px;
+    }
+
+    to {
+        left: 350px;
+    }
+}
+@keyframes Ellipse_9__x__2 {
+    from {
+        left: 350px;
+    }
+
+    to {
+        left: 388px;
+    }
+}
+@keyframes Ellipse_9__x__3 {
+    from {
+        left: 388px;
+    }
+
+    to {
+        left: 338px;
+    }
+}
+@keyframes Ellipse_9__x__4 {
+    from {
+        left: 338px;
+    }
+
+    to {
+        left: 379px;
+    }
+}
+@keyframes Ellipse_9__x__5 {
+    from {
+        left: 379px;
+    }
+
+    to {
+        left: 379px;
+    }
+}
+@keyframes Ellipse_9__x__6 {
+    from {
+        left: 379px;
+    }
+
+    to {
+        left: 437px;
+    }
+}
+@keyframes Ellipse_9__y__1 {
+    from {
+        top: 618px;
+    }
+
+    to {
+        top: 206px;
+    }
+}
+@keyframes Ellipse_9__y__2 {
+    from {
+        top: 206px;
+    }
+
+    to {
+        top: 312px;
+    }
+}
+@keyframes Ellipse_9__y__3 {
+    from {
+        top: 312px;
+    }
+
+    to {
+        top: 153px;
+    }
+}
+@keyframes Ellipse_9__y__4 {
+    from {
+        top: 153px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+@keyframes Ellipse_9__y__5 {
+    from {
+        top: 106px;
+    }
+
+    to {
+        top: 106px;
+    }
+}
+@keyframes Ellipse_9__y__6 {
+    from {
+        top: 106px;
+    }
+
+    to {
+        top: 618px;
+    }
+}
+
+#Ellipse_10 {
+    transform: translateX(-50%) translateY(-50%);
+    animation: Ellipse_10__x__1 3000ms 0ms linear forwards, Ellipse_10__x__2 3000ms 3000ms linear forwards, Ellipse_10__x__3 3000ms 6000ms linear forwards, Ellipse_10__x__4 3000ms 9000ms linear forwards, Ellipse_10__x__5 3000ms 12000ms linear forwards, Ellipse_10__x__6 3000ms 15000ms linear forwards, Ellipse_10__y__1 3000ms 0ms linear forwards, Ellipse_10__y__2 3000ms 3000ms linear forwards, Ellipse_10__y__3 3000ms 6000ms linear forwards, Ellipse_10__y__4 3000ms 9000ms linear forwards, Ellipse_10__y__5 3000ms 12000ms linear forwards, Ellipse_10__y__6 3000ms 15000ms linear forwards;
+}
+
+@keyframes Ellipse_10__x__1 {
+    from {
+        left: 211px;
+    }
+
+    to {
+        left: 350px;
+    }
+}
+@keyframes Ellipse_10__x__2 {
+    from {
+        left: 350px;
+    }
+
+    to {
+        left: 388px;
+    }
+}
+@keyframes Ellipse_10__x__3 {
+    from {
+        left: 388px;
+    }
+
+    to {
+        left: 338px;
+    }
+}
+@keyframes Ellipse_10__x__4 {
+    from {
+        left: 338px;
+    }
+
+    to {
+        left: 379px;
+    }
+}
+@keyframes Ellipse_10__x__5 {
+    from {
+        left: 379px;
+    }
+
+    to {
+        left: 379px;
+    }
+}
+@keyframes Ellipse_10__x__6 {
+    from {
+        left: 379px;
+    }
+
+    to {
+        left: 211px;
+    }
+}
+@keyframes Ellipse_10__y__1 {
+    from {
+        top: 139px;
+    }
+
+    to {
+        top: 198px;
+    }
+}
+@keyframes Ellipse_10__y__2 {
+    from {
+        top: 198px;
+    }
+
+    to {
+        top: 302px;
+    }
+}
+@keyframes Ellipse_10__y__3 {
+    from {
+        top: 302px;
+    }
+
+    to {
+        top: 143px;
+    }
+}
+@keyframes Ellipse_10__y__4 {
+    from {
+        top: 143px;
+    }
+
+    to {
+        top: 96px;
+    }
+}
+@keyframes Ellipse_10__y__5 {
+    from {
+        top: 96px;
+    }
+
+    to {
+        top: 96px;
+    }
+}
+@keyframes Ellipse_10__y__6 {
+    from {
+        top: 96px;
+    }
+
+    to {
+        top: 139px;
+    }
+}
