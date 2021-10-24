@@ -66,7 +66,6 @@ main {
   align-items: center;
   height: auto;
   background-color: var(--dark-color);
-  padding: var(--header-height) 10px 0px 10px;
 }
 
 h1,
@@ -256,7 +255,7 @@ a {
   flex-direction: column;
   box-shadow: 3px 5px 8px 1px rgba(255, 255, 255, 0.4);
   padding: 20px;
-  margin: 20px 25px;
+  margin: 25px 0px;
   background-color: var(--dark-color);
 }
 
@@ -293,11 +292,18 @@ a {
 }
 
 /* ---------- Section element: home ---------- */
+#home {
+  max-width: var(--max-width);
+}
+
 .homeImg {
   flex: 2;
   height: 400px;
   max-height: 70vh;
-  border: 1px greenyellow solid;
+}
+
+#home img {
+  width: 100%;
 }
 #home > .card {
   flex: 3;
@@ -310,6 +316,7 @@ a {
 /* ---------- Section element: products ---------- */
 #products {
   flex-direction: column;
+  max-width: var(--max-width);
 }
 
 .product {
@@ -318,7 +325,9 @@ a {
   justify-content: space-between;
   align-items: flex-start;
   min-height: 25vh;
-  margin: 25px 10px;
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 15px 0px;
 }
 
 .productDescription,
@@ -338,14 +347,20 @@ a {
 }
 .productAction {
   flex: 1;
-  align-items: flex-end;
+  align-items: center;
 }
+
+#products img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
 .productImg {
   flex: 1;
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   max-height: 70vh;
-  border: 1px greenyellow solid;
 }
 
 /* ---------- Section element: examples ---------- */
@@ -353,6 +368,7 @@ a {
 #examples {
   flex-wrap: wrap;
   justify-content: space-around;
+  max-width: var(--max-width);
 }
 
 #examples > .card {
@@ -367,15 +383,19 @@ a {
 /* ---------- Section element: pricing ---------- */
 
 #pricing {
-  padding: 10px;
+  max-width: var(--max-width);
 }
 .pricingImg {
   flex: 2;
-  height: auto;
-  min-height: 30vh;
-  max-height: 70vh;
-  border: 1px greenyellow solid;
+  height: 35vh;
 }
+
+#pricing img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
 #pricing > .card {
   flex: 5;
   justify-content: center;
@@ -387,11 +407,11 @@ a {
 /* ---------- Section element: contact ---------- */
 #contact {
   height: 40vh;
+  max-width: var(--max-width);
 }
 
 #contact > .card {
-  flex: 3;
-  display: flex;
+  flex: 5;
   justify-content: center;
   align-items: center;
   margin-right: 10px;
@@ -400,10 +420,14 @@ a {
 
 .contactImg {
   flex: 2;
-  margin-right: 20px;
-
+  height: auto;
   height: 35vh;
-  border: 1px greenyellow solid;
+}
+
+#contact img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 /* ---------- Section element: footer ---------- */
@@ -415,12 +439,13 @@ a {
   justify-content: center;
   background-color: var(--black-color);
   box-shadow: 0px -3px 8px 1px rgba(255, 255, 255, 0.356);
+  margin-top: 20px;
 }
 
 .footer-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
   max-width: var(--max-width);
