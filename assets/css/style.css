@@ -17,12 +17,12 @@
   /* Fonts sizes */
   --text-font: 'Roboto', sans-serif;
   --headline-font: 'Syncopate', sans-serif;
-  --h1-font-size: clamp(1.5rem, 1.0714rem + 2.1429vw, 3rem);
-  --h2-font-size: clamp(1.3rem, 0.9571rem + 1.7143vw, 2.5rem);
-  --h3-font-size: clamp(1rem, 0.7429rem + 1.2857vw, 1.9rem);
-  --big-font-size: clamp(1rem, 0.7143rem + 1.4286vw, 2rem);
-  --normal-font-size: clampclamp(0.9rem, 0.6714rem + 1.1429vw, 1.7rem);
-  --small-font-size: clamp(0.8rem, 0.6rem + 1vw, 1.5rem);
+  --h1-font-size: clamp(1rem, 0.8545rem + 0.7273vw, 1.4rem);
+  --h2-font-size: clamp(0.9rem, 0.7545rem + 0.7273vw, 1.3rem);
+  --h3-font-size: clamp(0.8rem, 0.6545rem + 0.7273vw, 1.2rem);
+  --big-font-size: clamp(1rem, 0.7143rem + 1.4286vw, 1.8rem);
+  --normal-font-size: clamp(0.7rem, 0.5182rem + 0.9091vw, 1.2rem);
+  --small-font-size: clamp(0.7rem, 0.5909rem + 0.5455vw, 1rem);
   --nav-font-size: clamp(1rem, 0.9143rem + 0.4286vw, 1.3rem);
 }
 
@@ -74,6 +74,24 @@ h3,
 header {
   font-family: var(--headline-font);
   color: var(--white-color);
+  font-weight: normal;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+}
+
+p {
+  font-size: var(--normal-font-size);
+  margin-top: 10px;
 }
 
 section {
@@ -181,6 +199,12 @@ a {
 }
 
 /* ---------- Reusable classes ---------- */
+.less-weight {
+  align-self: flex-start;
+  color: var(--light-color-alt);
+  font-size: var(--small-font-size);
+  font-style: italic;
+}
 
 /* Button with dynamic border & dark background */
 .btn {
@@ -259,6 +283,29 @@ a {
   background-color: var(--dark-color);
 }
 
+/* console text on main page */
+.console-container {
+  text-transform: uppercase;
+  text-align: center;
+  height: var(--header-height-half);
+  width: 100%;
+  margin-bottom: 10px;
+  display: block;
+  color: var(--white-color);
+  font-size: var(--h1-font-size);
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.console-underscore {
+  display: inline-block;
+  position: relative;
+  top: -0.14em;
+  left: 3px;
+}
+
 /* scroll to the top button*/
 .scrollup {
   position: fixed;
@@ -294,10 +341,12 @@ a {
 /* ---------- Section element: home ---------- */
 #home {
   max-width: var(--max-width);
+  align-items: flex-start;
 }
 
 .homeImg {
   flex: 2;
+  margin-top: 0;
   height: 400px;
   max-height: 70vh;
 }
@@ -310,16 +359,22 @@ a {
   justify-content: center;
   align-items: center;
   margin-left: 10px;
+  min-height: 45vh;
   max-height: 70vh;
 }
 
-/* ---------- Section element: products ---------- */
-#products {
-  flex-direction: column;
-  max-width: var(--max-width);
+#home p {
+  align-self: start;
 }
 
-.product {
+/* ---------- Section element: features ---------- */
+#features {
+  flex-direction: column;
+  max-width: var(--max-width);
+  padding-top: var(--header-height);
+}
+
+.features {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -330,9 +385,9 @@ a {
   margin: 15px 0px;
 }
 
-.productDescription,
-.productAction,
-.productImg {
+.featuresDescription,
+.featuresAction,
+.featuresImg {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -341,22 +396,23 @@ a {
   padding: 5px;
 }
 
-.productDescription {
+.featuresDescription {
   flex: 2;
   align-items: flex-start;
 }
-.productAction {
+.featuresAction {
   flex: 1;
   align-items: center;
+  text-align: center;
 }
 
-#products img {
+#features img {
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
 
-.productImg {
+.featuresImg {
   flex: 1;
   height: 150px;
   width: 150px;
@@ -369,6 +425,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-around;
   max-width: var(--max-width);
+  padding-top: var(--header-height);
 }
 
 #examples > .card {
@@ -376,46 +433,100 @@ a {
   align-items: center;
   width: 27%;
   min-width: 200px;
-  padding: 10px;
+  padding: 15px;
   background-color: var(--dark-color-alt);
 }
 
-/* ---------- Section element: pricing ---------- */
-
-#pricing {
+/* ---------- Section element: contact ---------- */
+#contact {
   max-width: var(--max-width);
+  padding-top: var(--header-height);
 }
-.pricingImg {
+.contactImg {
   flex: 2;
   height: 35vh;
+  width: auto;
+  margin: 10px;
 }
 
-#pricing img {
+#contact img {
   height: 100%;
   width: 100%;
+  min-width: 100px;
   object-fit: contain;
 }
 
-#pricing > .card {
+#contact .card {
   flex: 5;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
   align-items: center;
   margin-left: 10px;
   min-height: 30vh;
-  max-height: 70vh;
-}
-/* ---------- Section element: contact ---------- */
-#contact {
-  height: 40vh;
+  max-height: 90vh;
   max-width: var(--max-width);
+  padding: 30px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.contact-text {
+  flex: 2;
+}
+
+.contact-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-link {
+  padding: 5px;
+  width: 260px;
+  height: 36px;
+  margin: 5px;
+  transition: 0.4s;
+  color: var(--light-color);
+}
+
+.contact-link i {
+  font-size: var(--h1-font-size);
+  justify-self: center;
+  align-self: center;
+}
+
+.contact-link:hover {
+  background-color: var(--light-color-alt);
+  color: var(--black-color);
+}
+
+#contact p {
+  align-self: flex-start;
+  width: 100%;
+}
+/* #contact {
+  height: 80vh;
+  max-width: var(--max-width);
+  padding-top: var(--header-height);
+  padding-bottom: 0;
 }
 
 #contact > .card {
   flex: 5;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 10px;
-  height: 35vh;
+  margin-left: 10px;
+  height: 65vh;
+
+  padding: var(--header-height-half) var(--header-height);
 }
 
 .contactImg {
@@ -430,6 +541,87 @@ a {
   object-fit: contain;
 }
 
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contact-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-link {
+  padding: 5px;
+  width: 260px;
+  height: 36px;
+  margin: 5px;
+  transition: 0.4s;
+  color: var(--light-color);
+}
+
+.contact-link i {
+  font-size: var(--h1-font-size);
+  justify-self: center;
+  align-self: center;
+}
+
+.contact-link:hover {
+  background-color: var(--light-color-alt);
+  color: var(--black-color);
+} */
+
+/* ---------- Section element: pricing ---------- */
+
+#pricing {
+  max-width: var(--max-width);
+  padding-top: var(--header-height);
+}
+.pricingImg {
+  flex: 2;
+  height: 35vh;
+  width: auto;
+  margin: 10px;
+}
+
+#pricing img {
+  height: 100%;
+  width: 100%;
+  min-width: 100px;
+  object-fit: contain;
+}
+
+#pricing .card {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin-right: 10px;
+  min-height: 30vh;
+  max-height: 90vh;
+  max-width: var(--max-width);
+  padding: 30px;
+}
+
+#pricing p {
+  align-self: flex-start;
+  width: 100%;
+}
+
 /* ---------- Section element: footer ---------- */
 #footer {
   display: flex;
@@ -439,7 +631,11 @@ a {
   justify-content: center;
   background-color: var(--black-color);
   box-shadow: 0px -3px 8px 1px rgba(255, 255, 255, 0.356);
-  margin-top: 20px;
+  margin-top: var(--header-height);
+}
+
+#footer p {
+  font-size: var(--small-font-size);
 }
 
 .footer-container {
@@ -578,6 +774,7 @@ a {
   }
 
   /* ---------- Section element: home ---------- */
+
   .homeImg {
     display: none;
   }
@@ -585,7 +782,17 @@ a {
     margin: 10px;
     max-height: 80vh;
   }
+
+  /* ---------- Section element: features ---------- */
+  #features {
+    padding-top: 10px;
+  }
+
   /* ---------- Section element: examples ---------- */
+
+  #examples {
+    padding-top: 10px;
+  }
 
   #examples > .card {
     width: 80%;
@@ -594,7 +801,35 @@ a {
     padding: 10px;
   }
 
+  /* ---------- Section element: contact ---------- */
+  #contact {
+    height: 90vh;
+    margin: 0;
+    padding-top: 40px;
+  }
+
+  #contact > .card {
+    box-shadow: none;
+    width: 90%;
+    min-width: 200px;
+    margin: 0px;
+    padding: 10px;
+    height: 75vh;
+  }
+
+  .contactImg {
+    display: none;
+  }
+
+  .contact-container {
+    flex-direction: column;
+  }
+
   /* ---------- Section element: pricing ---------- */
+
+  #pricing {
+    padding-top: 10vh;
+  }
 
   .pricingImg {
     display: none;
@@ -607,37 +842,20 @@ a {
     min-width: 200px;
     margin: 0px;
     padding: 10px;
-    max-height: 80vh;
-  }
-
-  /* ---------- Section element: contact ---------- */
-  #contact {
-    height: 60vh;
-  }
-
-  #contact > .card {
-    box-shadow: none;
-    width: 90%;
-    min-width: 200px;
-    margin: 0px;
-    padding: 10px;
-    height: 55vh;
-  }
-
-  .contactImg {
-    display: none;
+    padding-top: 20px;
+    height: 80vh;
   }
 }
 
 @media screen and (max-width: 600px) {
-  /* ---------- Section element: products ---------- */
-  .product {
+  /* ---------- Section element: features ---------- */
+  .features {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
   }
 
-  .productImg {
+  .featuresImg {
     display: none;
   }
 
